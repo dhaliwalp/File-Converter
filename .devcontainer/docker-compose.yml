@@ -1,0 +1,21 @@
+version: "2"
+
+services:
+    p3:
+        tty: true
+        image: us.gcr.io/gcpdrive-sjstest/sw230-p3:3
+        platform: linux/amd64
+        ports:
+            - "5001:5001"
+        volumes:
+            - ..:/work
+            - work_home:/root
+        security_opt:
+            - seccomp:unconfined
+        environment:
+            - PYTHONPATH=/work
+        command:
+            - bash
+
+volumes:
+    work_home:

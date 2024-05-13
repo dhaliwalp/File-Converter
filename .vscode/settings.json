@@ -1,0 +1,9 @@
+{
+  "makefile.launchConfigurations": [
+    {
+      "cwd": "/workspaces/devcontainer-test",
+      "binaryPath": "/workspaces/devcontainer-test/main",
+      "binaryArgs": [],
+    }
+  ]
+}

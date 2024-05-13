@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "test",
+      "setup": "",
+      "run": "make test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "vtest",
+      "setup": "",
+      "run": "make vtest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
